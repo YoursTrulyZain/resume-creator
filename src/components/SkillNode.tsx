@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface SkillNodeProps {
   skill: string;
   onDelete: () => void;
