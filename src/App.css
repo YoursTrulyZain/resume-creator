@@ -1,4 +1,196 @@
+/* Reset and base styles */
 * {
-  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1,
+h3 {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
   color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+}
+
+.card input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin-bottom: 15px;
+}
+
+.output h1 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #555;
+  text-align: center;
+}
+
+/* Resume container */
+.resume {
+  width: 210mm; /* A4 width */
+  height: 297mm; /* A4 height */
+  margin: 0 auto;
+  padding: 30px; /* Add more padding for better spacing */
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: "Georgia", serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
+  box-sizing: border-box;
+}
+
+/* Header styling */
+.resume-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resume-header h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.resume-header p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Section styling */
+.resume-section {
+  margin-bottom: 20px;
+}
+
+.resume-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #444;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.resume-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.resume-section ul li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.resume-item {
+  margin-bottom: 15px;
+}
+
+.resume-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.resume-item p {
+  font-size: 14px;
+  margin: 2px 0;
+  color: #555;
+}
+
+/* General improvements */
+body {
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Skill input and list */
+.skill-input input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Skill node styling */
+.skill-node {
+  display: flex;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 1px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.skill-node span {
+  margin-right: 10px;
+}
+
+.skill-node .delete-skill {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.skill-node .delete-skill:hover {
+  color: #ff4d4d;
 }
