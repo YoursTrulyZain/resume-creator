@@ -35,7 +35,7 @@ A modern, React-based resume builder application that helps users create profess
 ### Prerequisites
 
 - Node.js (v14 or later)
-- npm package manager
+- npm or pnpm package manager
 
 ### Installation
 
@@ -43,6 +43,10 @@ A modern, React-based resume builder application that helps users create profess
 2. Install dependencies:
    ```
    npm install
+   ```
+   or
+   ```
+   pnpm install
    ```
 
 ### Running the Application
@@ -53,12 +57,24 @@ Start the development server:
 npm run dev
 ```
 
+or
+
+```
+pnpm dev
+```
+
 Then open your browser and navigate to the URL displayed in your terminal (typically http://localhost:5173/).
 
 ### Building for Production
 
 ```
 npm run build
+```
+
+or
+
+```
+pnpm build
 ```
 
 ## Future Enhancements
