@@ -63,7 +63,7 @@ or
 pnpm dev
 ```
 
-Then open your browser and navigate to the URL displayed in your terminal (typically http://localhost:5173/).
+Then open your browser and navigate to the URL displayed in your terminal.
 
 ### Building for Production
 
